@@ -12,7 +12,7 @@ class NotesController extends Controller
 {
     public function index()
     {
-        $notes= Notes::orderBy('created_at', 'desc')->get();
+        $notes= Notes::orderBy('created_at','DESC')->get();
         if (sizeof($notes)==0){
             return response()->json(['error'=>'erreur']);
         }
