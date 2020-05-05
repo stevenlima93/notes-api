@@ -10,11 +10,11 @@ class Notes extends Model
 
     public static function orderBy(string $string, string $string1)
     {
-
+        //
     }
 
     public static function findOrFail($id)
     {
-
+        //
     }
 }
